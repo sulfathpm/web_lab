@@ -1,0 +1,69 @@
+/* src/App.css */
+
+/* General body style */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centered card container for all pages */
+.card {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.card h2 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+/* Form inputs */
+.card input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Buttons */
+.card button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card button:hover {
+  background-color: #45a049;
+}
+
+/* Paragraph spacing */
+.card p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555555;
+}
+
+/* Total field */
+.total {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
