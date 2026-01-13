@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #eaeaea;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+div {
+  padding: 20px;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 0;
+}
